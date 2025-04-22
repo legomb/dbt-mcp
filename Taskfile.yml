@@ -38,7 +38,7 @@ tasks:
   install-pre-commit:
     desc: Install pre-commit hooks
     cmds:
-      - uv run pre-commit install
+      - uv run pre-commit install --overwrite
 
   check:
     desc: Run linting and type checking
